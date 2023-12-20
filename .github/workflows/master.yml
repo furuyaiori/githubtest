@@ -17,4 +17,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./
-          server-dir: /githubtest.xsrv.jp/public_html/wp-content/themes/test
+          server-dir: /githubtest.xsrv.jp/public_html/wp-content/themes/test/
