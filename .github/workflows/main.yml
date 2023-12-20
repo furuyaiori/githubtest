@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: FTP-Deploy-Action
-        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        uses: furuyaiori/githubtest@4.0.0
         with:
           server: ${{ secrets.SV14837_SERVER }}
           username: ${{ secrets.GITHUBTEST_USERNAME }}
