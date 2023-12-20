@@ -8,7 +8,7 @@ jobs:
     name: FTP-Deploy-Action
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@main
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@2.0.0
         
@@ -18,3 +18,4 @@ jobs:
           password: ${{ secrets.GITHUBTEST_PASSWORD }}
           local-dir: ./
           server-dir: /githubtest.xsrv.jp/public_html/wp-content/themes/test
+          ARGS: --delete --parallel=10
