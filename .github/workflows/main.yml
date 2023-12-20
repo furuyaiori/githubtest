@@ -12,8 +12,8 @@ jobs:
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          server: ${{ sv14837.xserver.jp }}
-          username: ${{ githubtest }}
-          password: ${{ zml5ripq }}
+          server: ${{ secrets.SV14837_SERVER }}
+          username: ${{ secrets.GITHUBTEST_USERNAME }}
+          password: ${{ secrets.GITHUBTEST_PASSWORD }}
           local-dir: ./
           server-dir: /githubtest.xsrv.jp/public_html/wp-content/themes/test
