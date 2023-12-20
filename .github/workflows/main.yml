@@ -12,8 +12,8 @@ jobs:
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
+          server: ${{ sv14837.xserver.jp }}
+          username: ${{ githubtest }}
+          password: ${{ zml5ripq }}
           local-dir: ./
-          server-dir: /bizento.xsrv.jp/public_html/personalgym/wp-content/themes/bizento/
+          server-dir: /githubtest.xsrv.jp/public_html/wp-content/themes/test
