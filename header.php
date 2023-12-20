@@ -21,6 +21,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+<h1>自動デプロイ</h1>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content">
